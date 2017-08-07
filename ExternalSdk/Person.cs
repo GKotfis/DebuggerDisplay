@@ -5,7 +5,11 @@ namespace ExternalSdk
     public class Person
     {
         public string Id { get; set; }
+
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         public string Name { get; set; }
+
+        [DebuggerBrowsable(DebuggerBrowsableState.RootHidden)]
         public Address Address { get; set; }
     }
 
