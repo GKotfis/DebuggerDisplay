@@ -15,3 +15,6 @@ More info:
 [Format specifiers in C# in the Visual Studio debugger](https://docs.microsoft.com/en-us/visualstudio/debugger/format-specifiers-in-csharp)
 
 [DebuggerDisplay attribute best practices](https://blogs.msdn.microsoft.com/jaredpar/2011/03/18/debuggerdisplay-attribute-best-practices/)
+
+# DebbugerBrowsable attribute
+[MSDN](https://msdn.microsoft.com/en-us/library/system.diagnostics.debuggerbrowsableattribute(v=vs.110).aspx)
