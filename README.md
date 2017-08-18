@@ -18,3 +18,9 @@ More info:
 
 # DebbugerBrowsable attribute
 [MSDN](https://msdn.microsoft.com/en-us/library/system.diagnostics.debuggerbrowsableattribute(v=vs.110).aspx)
+
+# DebuggerProxy attribute
+[MSDN](https://msdn.microsoft.com/en-us/library/d8eyd8zc.aspx)
+
+[Patent law](http://www.google.com.gi/patents/US20050216893)
+

@@ -1,7 +1,9 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using DebbugerDisplayProject;
 using ExternalSdk;
 
 // Output folder: C:\Users\{UserName}\Documents\Visual Studio 2017\Visualizers
 
-[assembly: DebuggerDisplay(@"[Visualizer] Id = {Id,nq}, Name = {Name,nq}, WithAddress = {Address != null}}", Target = typeof(Person))]
-[assembly: DebuggerDisplay(@"Address = {City,nq} : {Street,nq}", Target = typeof(Address))]
+[assembly: DebuggerTypeProxy(typeof(AddressDebug), Target = typeof(Address))]

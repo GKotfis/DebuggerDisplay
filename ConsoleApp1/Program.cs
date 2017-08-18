@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
 using ExternalSdk;
 
 namespace ConsoleApp1
@@ -7,7 +10,7 @@ namespace ConsoleApp1
     {
         private static void Main(string[] args)
         {
-           Person person = new Person()
+            Person person = new Person()
             {
                 Id = "1",
                 Name = "Jan Kowalski",
